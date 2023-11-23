@@ -27,9 +27,9 @@ $(document).ready(function() {
                 // Check if the request was successful
                 if (response.success) {
                     // Set modal content based on the data received\
-                    $('#recipient-name').val(response.data.name);
-                    $('#recipient-email').val(response.data.email);
-                    $('#recipient-number').val(response.data.number);
+                    $('#update-name').val(response.data.name);
+                    $('#update-email').val(response.data.email);
+                    $('#update-number').val(response.data.number);
 
                     // Show the modal
                     $('#exampleModal1').modal('show');
