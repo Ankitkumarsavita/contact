@@ -170,15 +170,15 @@ if (isset($_GET['delete_id']) && !empty($_GET['delete_id'])) {
                         <div class="modal-body">
                             <form action="welcome.php" method="POST">
                                 <div class="mb-3">
-                                    <label for="recipient-name" class="col-form-label">Name</label>
-                                    <input type="text" class="form-control" id="recipient-name" name="name">
+                                    <label for="update-name" class="col-form-label">Name</label>
+                                    <input type="text" class="form-control" id="update-name" name="name">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="recipient-email" class="col-form-label">Email-id</label>
-                                    <input type="text" class="form-control" id="recipient-email" name="email">
+                                    <label for="update-email" class="col-form-label">Email-id</label>
+                                    <input type="text" class="form-control" id="update-email" name="email">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="recipient-number" class="col-form-label">Mobile Number</label>
+                                    <label for="update-number" class="col-form-label">Mobile Number</label>
                                     <input type="text" class="form-control" id="recipient-number" name="number">
                                 </div>
                                 <div class="modal-footer">
